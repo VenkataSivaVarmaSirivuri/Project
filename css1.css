@@ -1,0 +1,52 @@
+body {
+  text-align: center; /*now image elemnt also comes to the center*/
+  background-color: #fecda6;
+  margin: 50px; /*this give spacing of each letter left to right top to bottom to look good letters*/
+}
+main h1 {
+  /*font-family: "Fira Code", monospace;*/ /*this is font family name from google fonts and 'fontname' first name should be inside single quotes,
+  fontname if one font fails to load other font name
+   without quote loads default*/
+  /* external css*/
+  /*text-align: center; because body we put centre no need here*/
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  /*text-align: center;*/
+  color: red;
+  font-size: 24px;
+}
+a {
+  color: red;
+  text-decoration: none; /* now o underline so i want underline when i hover that link so down we give text-decoration:underline;*/
+}
+a:hover {
+  text-decoration: underline; /*hover is when you mose point that sentence it shows underline or else normal.*/
+}
+#editp {
+  color: orangered;
+  font-weight: bold; /*it makes bold*/
+  font-size: 32px; /*px is pixels and we have other as rem and % but px is best just like resolution*/
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; /*to align image centre body elemt should make centre*/
+  border: 5px solid rgb(44, 44, 44);
+  margin-top: -139px; /*logic is padding -24-(border)5=-29 and img=210/2=105 -105-29=-139*/
+}
+span {
+  color: rgb(218, 17, 17);
+}
+main {
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: rgb(219, 108, 94);
+  padding: 24px;
+  border: 5px solid rgb(44, 44, 44);
+  border-radius: 8px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.4);
+}

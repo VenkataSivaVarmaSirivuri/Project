@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+
+  background-color: #fecda6;
+}
+h1 {
+  font-size: 48px;
+  margin: 0; /*i am giving 12 px top-bottom and 0px-left to right*/
+}
+p {
+  font-weight: "bold";
+  margin-bottom: 64px;
+}
+a {
+  padding: 12px 48px; /*space between the content and border*/
+  background-color: crimson;
+  color: white;
+  /*text-decoration: none; so noww removing underline in hover and giving color*/
+  border-radius: 4px;
+  font-size: 24px;
+  text-decoration: none; /*i dont want any underline*/
+
+  /*display:inline; so that inline can change margin etc*/
+  display: inline-block; /*inline block we used we change margin*/
+  margin: 0px;
+}
+a:hover {
+  /*text-decoration: underline;*/
+  color: chartreuse;
+  text-decoration: none; /*i dont want underline so when you hover it changes chartreuse*/
+}
+ol {
+  list-style: none; /* no need li because ol takes care for li parent what does child can inherit same property*/
+  width: 500px;
+  /*to make center we use margin top 32px right auto bottom 0 left auto*/
+  margin: 32px auto 0 auto;
+  /*to make perfect centre padding 0*/
+  padding: 0;
+}
+/*li {
+  list-style: square;} /*you can give None when you give none it displays none.*/
+li {
+  padding: 16px;
+  background-color: lightsalmon;
+  border-radius: 6px;
+  margin: 32px; /*spaacing*/
+  box-shadow: 3px 3px 3px black; /*box shadow is x:3 y:3 radius:3 and color can add rgba(0,0,0,0.2) etc*/
+}
+#description {
+  margin-bottom: 32px;
+} /*if you header tag and inside p then header p{} can also give same result as above decription*/
+.daily-goal {
+  margin: 12px;
+  color: brown;
+}
+.highlight-li {
+  background-color: #eaaa76;
+}
